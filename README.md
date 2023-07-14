@@ -64,6 +64,16 @@ Set-PSReadLineOption -PredictionSource History -PredictionViewStyle ListView
 
 ---
 
+## 隱藏虛擬環境名稱
+
+$PROFILE 中加入
+
+```
+$env:VIRTUAL_ENV_DISABLE_PROMPT=1
+```
+
+---
+
 ## [PoShFuck](https://github.com/mattparkes/PoShFuck)
 
 #### 安裝
